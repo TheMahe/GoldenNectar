@@ -1,0 +1,716 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="description"
+      content="Omnifood is an AI-powered food subscription that will make you eat healthy again, 365 days per year. It's tailored to your personal tastes and nutritional needs."
+    />
+
+    <!-- Always include this line of code!!! -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="icon" href="img/favicon.png" />
+    <link rel="apple-touch-icon" href="img/apple-touch-icon.png" />
+    <link rel="manifest" href="manifest.webmanifest" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Lato:wght@400;700&family=Raleway:wght@400;700&display=swap" rel="stylesheet">
+
+
+
+    <link rel="stylesheet" href="css/general.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/queries.css" />
+
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.4.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule=""
+      src="https://unpkg.com/ionicons@5.4.0/dist/ionicons/ionicons.js"
+    ></script>
+
+    <script
+      defer
+      src="https://unpkg.com/smoothscroll-polyfill@0.4.4/dist/smoothscroll.min.js"
+    ></script>
+    <script defer src="js/script.js"></script>
+    <script defer src="js/express.js"></script>
+
+
+    <title>GoldenNectar &mdash; Be healthy!</title>
+  </head>
+  <body>
+    <header class="header">
+      <a href="#">
+        <img class="logo" alt="GoldenNectar logo" src="img/GoldenNectar-logo.png" />
+      </a>
+
+      <nav class="main-nav">
+        <ul class="main-nav-list">
+          <li><a class="main-nav-link" href="#how">How it works</a></li>
+          <li><a class="main-nav-link" href="#meals">Meals</a></li>
+          <li>
+            <a class="main-nav-link" href="#testimonials">Testimonials</a>
+          </li>
+          <li><a class="main-nav-link" href="#pricing">Pricing</a></li>
+          <li><a class="main-nav-link nav-cta" href="#cta">Try for free</a></li>
+        </ul>
+      </nav>
+
+      <button class="btn-mobile-nav">
+        <ion-icon class="icon-mobile-nav" name="menu-outline"></ion-icon>
+        <ion-icon class="icon-mobile-nav" name="close-outline"></ion-icon>
+      </button>
+    </header>
+
+    <main>
+      <section class="section-hero">
+        <div class="hero">
+          <div class="hero-text-box">
+            <h1 class="heading-primary heading-primary-hero">
+              Pure, Natural <span>Honey</span>
+               Delivered to Your Door
+            </h1>
+            <p class="hero-description">
+              Discover the finest, sustainably sourced honey, packed with natural goodness and delivered right to you. Taste the difference with <GoldenNectar class=""></GoldenNectar>
+            </p>
+            <a href="#cta" class="btn btn--full margin-right-sm"
+              >Shop Now</a
+            >
+
+            <a href="#how" class="btn btn--outline">Learn more &darr;</a>
+            <div class="delivered-meals">
+
+              <p class="delivered-text">
+              </p>
+            </div>
+          </div>
+          <div class="hero-img-box">
+            <picture>
+              <source srcset="img/hero-img.png" type="image/png" />
+
+              <img
+                src="img/hero-img.png"
+                class="hero-img"
+                alt="Woman enjoying food, meals in storage container, and food bowls on a table"
+              />
+            </picture>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-featured">
+        <div class="container">
+          <h2 class="heading-featured-in">As featured in</h2>
+          <div class="logos">
+            <img src="img/logos/techcrunch.png" alt="Techcrunch logo" />
+            <img
+              src="img/logos/business-insider.png"
+              alt="Business Insider logo"
+            />
+            <img
+              src="img/logos/the-new-york-times.png"
+              alt="The New York Times logo"
+            />
+            <img src="img/logos/forbes.png" alt="Forbes logo" />
+            <img src="img/logos/usa-today.png" alt="USA Today logo" />
+          </div>
+        </div>
+      </section>
+
+      <section class="section-how" id="how">
+
+
+        <div class="container container-about">
+
+          <div class="step-img-box">
+            <img
+              src="img/app/about-honey.png"
+              class="step-img"
+              alt="Image showcasing nice honey "
+            />
+          </div>
+          <div class="step-text-box">
+            <p class="subheading subheding-about">information</p>
+            <h3 class="heading-primary">About Honey</h3>
+            <p class="step-description">
+              At GoldenNectar, we are passionate about bringing you the finest and purest honey straight from nature. Our commitment is to provide high-quality, organic honey that supports your health and well-being. <br> <br> We partner with local beekeepers to ensure our honey is sustainably sourced and free from additives. Enjoy the natural sweetness and health benefits of honey with every jar of GoldenNectar.
+
+
+            </p>
+          </div>
+
+
+        </div>
+      </section>
+
+      <section class="section-meals" id="meals">
+        <div class="container center-text">
+          <span class="subheading">Discover Nature’s Sweetest Gift in Every Jar</span>
+          <h2 class="heading-secondary">
+            Experience the Purest Honey Varieties
+          </h2>
+        </div>
+
+        <div class="container grid grid--3-cols margin-bottom-md">
+          <div class="meal">
+            <img
+              src="img/meals/wildflower%20honey.jpg "
+              class="meal-img"
+              alt="Japanese Gyozas"
+            />
+            <div class="meal-content">
+              <div class="meal-tags">
+                <span class="tag tag--vegetarian">Organic</span>
+              </div>
+              <p class="meal-title">Wildflower Honey</p>
+              <ul class="meal-attributes">
+                <li class="meal-attribute">
+                  <ion-icon class="meal-icon" name="flame-outline"></ion-icon>
+                  <span><strong>Category:</strong> Pure & Raw</span>
+                </li>
+                <li class="meal-attribute">
+                  <ion-icon
+                    class="meal-icon"
+                    name="restaurant-outline"
+                  ></ion-icon>
+                  <span>Taste: <strong>Floral and robust</strong></span>
+                </li>
+                <li class="meal-attribute">
+                  <ion-icon class="meal-icon" name="star-outline"></ion-icon>
+                  <span><strong>4.9</strong> rating (537)</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="meal">
+            <img
+              src="img/meals/manuka-honey.jpg"
+              class="meal-img"
+              alt="Avocado Salad"
+            />
+            <div class="meal-content">
+              <div class="meal-tags">
+                <span class="tag tag--vegan">Gluten-Free</span>
+                <span class="tag tag--paleo">Diabetic-Friendly</span>
+              </div>
+              <p class="meal-title">Manuka Honey</p>
+              <ul class="meal-attributes">
+                <li class="meal-attribute">
+                  <ion-icon class="meal-icon" name="flame-outline"></ion-icon>
+                  <span><strong>Category: </strong> Premium</span>
+                </li>
+                <li class="meal-attribute">
+                  <ion-icon
+                    class="meal-icon"
+                    name="restaurant-outline"
+                  ></ion-icon>
+                  <span>Taste: <strong>Earthy and medicinal</strong></span>
+                </li>
+                <li class="meal-attribute">
+                  <ion-icon class="meal-icon" name="star-outline"></ion-icon>
+                  <span><strong>4.8</strong> rating (441)</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="diets">
+            <h3 class="heading-tertiary">Works with any diet:</h3>
+            <ul class="list">
+              <li class="list-item">
+                <ion-icon class="list-icon" name="checkmark-outline"></ion-icon>
+                <span>Organic</span>
+              </li>
+              <li class="list-item">
+                <ion-icon class="list-icon" name="checkmark-outline"></ion-icon>
+                <span>Gluten-Free</span>
+              </li>
+              <li class="list-item">
+                <ion-icon class="list-icon" name="checkmark-outline"></ion-icon>
+                <span>Paleo</span>
+              </li>
+              <li class="list-item">
+                <ion-icon class="list-icon" name="checkmark-outline"></ion-icon>
+                <span>Keto</span>
+              </li>
+              <li class="list-item">
+                <ion-icon class="list-icon" name="checkmark-outline"></ion-icon>
+                <span>Vegan</span>
+              </li>
+              <li class="list-item">
+                <ion-icon class="list-icon" name="checkmark-outline"></ion-icon>
+                <span>Keto</span>
+              </li>
+              <li class="list-item">
+                <ion-icon class="list-icon" name="checkmark-outline"></ion-icon>
+                <span>Raw Food</span>
+              </li>
+              <li class="list-item">
+                <ion-icon class="list-icon" name="checkmark-outline"></ion-icon>
+                <span>Diabetic-Friendly</span>
+              </li>
+              <li class="list-item">
+                <ion-icon class="list-icon" name="checkmark-outline"></ion-icon>
+                <span>Kid-friendly</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="container all-recipes">
+          <a href="#" class="link">See all recipes &rarr;</a>
+        </div>
+      </section>
+
+      <section class="how-it-works">
+         <span class="subheading">How Does it Works?</span>
+          <h2 class="heading-secondary">Natural Ingredients & Fine Quality Honey</h2>
+         <div class="how-container">
+           <div class="column-left">
+             <div class="card">
+               <img src="./img/beekeper-icon.png" alt="beekeper icon">
+               <h3 class="card-title">Hive Inspection</h3>
+               <p class="card-text">Regular hive inspections are crucial for maintaining healthy bee colonies.
+               </p>
+             </div>
+             <div class="card">
+               <img src="./img/bee-hive-icon.png" alt="bee hive icon">
+               <h3 class="card-title">Harvesting Honey</h3>
+               <p class="card-text">Harvesting honey is a delicate process that requires precision and care.
+             </div>
+           </div>
+           
+           <div class="column-middle">
+             <div class="img-box">
+               <img src="./img/bees-img.png" alt="bees">
+             </div>
+           </div>
+
+           <div class="column-right">
+             <div class="card">
+               <img src="./img/queen-bee-icon.png" alt="queen bee icon">
+               <h3 class="card-title">Queen Management
+               </h3>
+               <p class="card-text">The queen bee is the heart of the hive, and proper queen management is vital for a strong colony. </p>
+             </div>
+             <div class="card">
+               <img src="./img/barrel-icon.png" alt="barrel icon">
+               <h3 class="card-title">Winter Preparation</h3>
+               <p class="card-text">Preparing the hive for winter is essential to protect the bees during colder months.</p>
+             </div>
+           </div>
+         </div>
+      </section>
+
+      <section class="section-testimonials" id="testimonials">
+        <div class="testimonials-container">
+          <span class="subheading">Testimonials</span>
+          <h2 class="heading-secondary">Pure Bliss in Every Drop</h2>
+
+          <div class="testimonials">
+            <figure class="testimonial">
+              <img
+                class="testimonial-img"
+                alt="Photo of customer John Matthews"
+                src="img/customers/dave.jpg"
+              />
+              <blockquote class="testimonial-text">
+                "GoldenNectar honey is the best I've ever tasted! It's rich, pure, and adds the perfect touch of sweetness to everything. I can't imagine my mornings without it."
+              </blockquote>
+              <p class="testimonial-name">&mdash; John Matthews</p>
+            </figure>
+
+            <figure class="testimonial">
+              <img
+                class="testimonial-img"
+                alt="Photo of customer Emily Watson"
+                src="img/customers/ben.jpg"
+              />
+              <blockquote class="testimonial-text">
+                "The variety of honey offered by GoldenNectar is incredible. From wildflower to clover, each type has a unique flavor profile that makes cooking and baking so much fun."
+              </blockquote>
+              <p class="testimonial-name">&mdash; Emily Watson</p>
+            </figure>
+
+            <figure class="testimonial">
+              <img
+                class="testimonial-img"
+                alt="Photo of customer Michael Anderson"
+                src="img/customers/steve.jpg"
+              />
+              <blockquote class="testimonial-text">
+                "I've tried many brands, but nothing compares to GoldenNectar. The quality is unmatched, and I love that they are so committed to sustainability and supporting local bee populations."
+              </blockquote>
+              <p class="testimonial-name">&mdash; Michael Anderson</p>
+            </figure>
+
+            <figure class="testimonial">
+              <img
+                class="testimonial-img"
+                alt="Photo of customer Hannah Smith"
+                src="img/customers/hannah.jpg"
+              />
+              <blockquote class="testimonial-text">
+                "GoldenNectar honey has become a staple in my household. My kids love it on their toast, and I use it as a natural sweetener in my tea."
+              </blockquote>
+              <p class="testimonial-name">&mdash; Sophia Williams
+
+              </p>
+            </figure>
+          </div>
+        </div>
+
+        <div class="gallery">
+          <figure class="gallery-item">
+            <img
+              src="img/gallery/gallery-1.jpg"
+              alt="Photo of beautifully
+            arranged food"
+            />
+            <!-- <figcaption>Caption</figcaption> -->
+          </figure>
+          <figure class="gallery-item">
+            <img
+              src="img/gallery/gallery-2.jpg"
+              alt="Photo of beautifully
+            arranged food"
+            />
+          </figure>
+          <figure class="gallery-item">
+            <img
+              src="img/gallery/gallery-3.jpg"
+              alt="Photo of beautifully
+            arranged food"
+            />
+          </figure>
+          <figure class="gallery-item">
+            <img
+              src="img/gallery/gallery-4.jpg"
+              alt="Photo of beautifully
+            arranged food"
+            />
+          </figure>
+          <figure class="gallery-item">
+            <img
+              src="img/gallery/gallery-5.jpg"
+              alt="Photo of beautifully
+            arranged food"
+            />
+          </figure>
+          <figure class="gallery-item">
+            <img
+              src="img/gallery/gallery-6.jpg"
+              alt="Photo of beautifully
+            arranged food"
+            />
+          </figure>
+          <figure class="gallery-item">
+            <img
+              src="img/gallery/gallery-7.jpg"
+              alt="Photo of beautifully
+            arranged food"
+            />
+          </figure>
+          <figure class="gallery-item">
+            <img
+              src="img/gallery/gallery-8.jpg"
+              alt="Photo of beautifully
+            arranged food"
+            />
+          </figure>
+          <figure class="gallery-item">
+            <img
+              src="img/gallery/gallery-9.jpg"
+              alt="Photo of beautifully
+            arranged food"
+            />
+          </figure>
+          <figure class="gallery-item">
+            <img
+              src="img/gallery/gallery-10.jpg"
+              alt="Photo of beautifully
+            arranged food"
+            />
+          </figure>
+          <figure class="gallery-item">
+            <img
+              src="img/gallery/gallery-11.jpg"
+              alt="Photo of beautifully
+            arranged food"
+            />
+          </figure>
+          <figure class="gallery-item">
+            <img
+              src="img/gallery/gallery-12.jpg"
+              alt="Photo of beautifully
+            arranged food"
+            />
+          </figure>
+        </div>
+      </section>
+
+      <section class="section-pricing" id="pricing">
+        <div class="container">
+          <span class="subheading">Pricing</span>
+          <h2 class="heading-secondary">
+            Sweetness for Every Budget
+          </h2>
+        </div>
+
+        <div class="container grid grid--2-cols margin-bottom-md">
+          <div class="pricing-plan pricing-plan--starter">
+            <header class="plan-header">
+              <p class="plan-name">CLASSIC
+              </p>
+              <p class="plan-price"><span>$</span>79</p>
+              <p class="plan-text">per month. That's just $2.60 per day!</p>
+            </header>
+            <ul class="list">
+              <li class="list-item">
+                <ion-icon class="list-icon" name="checkmark-outline"></ion-icon>
+                <span>2kg of pure, organic honey</span>
+              </li>
+              <li class="list-item">
+                <ion-icon class="list-icon" name="checkmark-outline"></ion-icon>
+                <span>exclusive recipes and tips</span>
+              </li>
+              <li class="list-item">
+                <ion-icon class="list-icon" name="checkmark-outline"></ion-icon>
+                <span>Delivery is free</span>
+              </li>
+              <li class="list-item">
+                <ion-icon class="list-icon" name="close-outline"></ion-icon>
+              </li>
+            </ul>
+            <div class="plan-sing-up">
+              <a href="#" class="btn btn--full">Start eating well</a>
+            </div>
+          </div>
+
+          <div class="pricing-plan pricing-plan--complete">
+            <header class="plan-header">
+              <p class="plan-name">DELUXE
+
+              </p>
+              <p class="plan-price"><span>$</span>129</p>
+              <p class="plan-text">per month. That's just $4.30 per day!
+
+              </p>
+            </header>
+            <ul class="list">
+              <li class="list-item">
+                <ion-icon class="list-icon" name="checkmark-outline"></ion-icon>
+                <span><strong>5kg</strong>  of pure, organic honey</span>
+              </li>
+              <li class="list-item">
+                <ion-icon class="list-icon" name="checkmark-outline"></ion-icon>
+                <span>Order <strong>24/7</strong></span>
+              </li>
+              <li class="list-item">
+                <ion-icon class="list-icon" name="checkmark-outline"></ion-icon>
+                <span>Delivery is free</span>
+              </li>
+              <li class="list-item">
+                <ion-icon class="list-icon" name="checkmark-outline"></ion-icon>
+                <span>Exclusive seasonal honey varieties</span>
+              </li>
+            </ul>
+            <div class="plan-sing-up">
+              <a href="#" class="btn btn--full">Start eating well</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="container grid">
+          <aside class="plan-details">
+            Prices include all applicable taxes. You can cancel at any time.
+            Both plans include the following:
+          </aside>
+        </div>
+
+        <div class="container grid grid--4-cols">
+          <div class="feature">
+            <ion-icon class="feature-icon" name="infinite-outline"></ion-icon>
+            <p class="feature-title">Fresh & Natural
+            </p>
+            <p class="feature-text">
+              Our honey is fresh, pure, and natural.
+
+
+            </p>
+          </div>
+          <div class="feature">
+            <ion-icon class="feature-icon" name="nutrition-outline"></ion-icon>
+            <p class="feature-title">Eco-Friendly
+            </p>
+            <p class="feature-text">
+              We use eco-friendly practices for our honey.
+
+          </div>
+          <div class="feature">
+            <ion-icon class="feature-icon" name="leaf-outline"></ion-icon>
+            <p class="feature-title">Locally Sourced
+            </p>
+            <p class="feature-text">
+              Our honey comes from local, loving beekeepers.
+
+          </div>
+          <div class="feature">
+            <ion-icon class="feature-icon" name="pause-outline"></ion-icon>
+            <p class="feature-title">Customizable Orders</p>
+            <p class="feature-text">
+              We offer customizable orders to suit you.
+
+          </div>
+        </div>
+      </section>
+
+      <section class="section-cta" id="cta">
+        <div class="container">
+          <div class="cta">
+            <div
+                    class="cta-img-box"
+                    role="img"
+                    aria-label="Nice honey jar and spoon on a table"
+            ></div>
+            <div class="cta-text-box">
+              <h2 class="heading-secondary">Get a Free Jar of Honey!
+              </h2>
+              <p class="cta-text">
+                Discover the natural sweetness of our premium honey. Sign up today and receive a free jar on us. No commitments required!
+
+              </p>
+
+              <form class="cta-form" name="sign-up" netlify>
+                <div>
+                  <label for="full-name">Full Name</label>
+                  <input
+                    id="full-name"
+                    type="text"
+                    placeholder="John Smith"
+                    name="full-name"
+                    required
+                  />
+                </div>
+
+                <div>
+                  <label for="email">Email address</label>
+                  <input
+                    id="email"
+                    type="email"
+                    placeholder="me@example.com"
+                    name="email"
+                    required
+                  />
+                </div>
+
+                <div>
+                  <label for="select-where">Where did you hear from us?</label>
+                  <select id="select-where" name="select-where" required>
+                    <option value="">Please choose one option:</option>
+                    <option value="friends">Friends and family</option>
+                    <option value="youtube">YouTube video</option>
+                    <option value="podcast">Podcast</option>
+                    <option value="ad">Facebook ad</option>
+                    <option value="others">Others</option>
+                  </select>
+                </div>
+
+                <button class="btn btn--form">Sign up now</button>
+
+                <!-- <input type="checkbox" />
+                <input type="number" /> -->
+              </form>
+            </div>
+
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <section class="footer-wrapper"> <
+    <footer class="footer">
+      <div class="container grid grid--footer">
+        <div class="logo-col">
+          <a href="#" class="footer-logo">
+            <img class="logo" alt="Omnifood logo" src="img/GoldenNectar-footer.png" />
+          </a>
+
+          <ul class="social-links">
+            <li>
+              <a class="footer-link" href="#"
+                ><ion-icon class="social-icon" name="logo-instagram"></ion-icon
+              ></a>
+            </li>
+            <li>
+              <a class="footer-link" href="#"
+                ><ion-icon class="social-icon" name="logo-facebook"></ion-icon
+              ></a>
+            </li>
+            <li>
+              <a class="footer-link" href="#"
+                ><ion-icon class="social-icon" name="logo-twitter"></ion-icon
+              ></a>
+            </li>
+          </ul>
+
+          <p class="copyright">
+            Copyright &copy; <span class="year">2027</span> by Omnifood, Inc.
+            All rights reserved.
+          </p>
+        </div>
+
+        <div class="address-col">
+          <p class="footer-heading">Contact us</p>
+          <address class="contacts">
+            <p class="address">
+              623 Harrison St., 2nd Floor, San Francisco, CA 94107
+            </p>
+            <p>
+              <a class="footer-link" href="tel:415-201-6370">415-201-6370</a
+              ><br />
+              <a class="footer-link" href="mailto:hello@omnifood.com"
+                >hello@omnifood.com</a
+              >
+            </p>
+          </address>
+        </div>
+
+        <nav class="nav-col">
+          <p class="footer-heading">Account</p>
+          <ul class="footer-nav">
+            <li><a class="footer-link" href="#">Create account</a></li>
+            <li><a class="footer-link" href="#">Sign in</a></li>
+            <li><a class="footer-link" href="#">iOS app</a></li>
+            <li><a class="footer-link" href="#">Android app</a></li>
+          </ul>
+        </nav>
+
+        <nav class="nav-col">
+          <p class="footer-heading">Company</p>
+          <ul class="footer-nav">
+            <li><a class="footer-link" href="#">About Omnifood</a></li>
+            <li><a class="footer-link" href="#">For Business</a></li>
+            <li><a class="footer-link" href="#">Cooking partners</a></li>
+            <li><a class="footer-link" href="#">Careers</a></li>
+          </ul>
+        </nav>
+
+        <nav class="nav-col">
+          <p class="footer-heading">Resources</p>
+          <ul class="footer-nav">
+            <li><a class="footer-link" href="#">Recipe directory </a></li>
+            <li><a class="footer-link" href="#">Help center</a></li>
+            <li><a class="footer-link" href="#">Privacy & terms</a></li>
+          </ul>
+        </nav>
+      </div>
+    </footer>
+      </section>
+  </body>
+</html>
